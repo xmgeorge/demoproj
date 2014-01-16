@@ -1,6 +1,6 @@
 set :deploy_to, "$HOME/staging"
 
-role :app, "192.168.0.13"
+role :app, "localhost"
 
 # Email notifications
 set :notify_emails, ["adminteam@xminds.in"]

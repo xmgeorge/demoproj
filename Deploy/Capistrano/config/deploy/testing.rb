@@ -1,6 +1,6 @@
 set :deploy_to, "$HOME/testing"
 
-role :app, "192.168.0.13"
+role :app, "localhost"
 
 # Email notifications
 #set :notify_emails, ["admin@xminds.com", "abcd@xminds.com" ]
